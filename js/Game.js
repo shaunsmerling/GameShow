@@ -109,7 +109,7 @@ class Game {
         let phrase = document.getElementById("phraseTitle")
         let restartBtn = document.getElementById("btn__reset")
         overlay.style.display = ""
-        restartBtn.textContent = "Try again??"
+        restartBtn.textContent = "Play again?"
         restartBtn.addEventListener("click", this.resetGame())
 
         if (gameWon) {

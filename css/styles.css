@@ -112,7 +112,7 @@ button {
 
 .show {
   color: #fff;
-  background-color: #4ac0d5;
+  background-color: #d5964a;
   font-size: 20px;
   height: 65px;
   width: 65px;
@@ -193,7 +193,7 @@ button {
 }
 
 .win {
-  background-color: var(--color-win);
+  background-color: green;
 }
 
 .win a {
@@ -201,7 +201,7 @@ button {
 }
 
 .lose {
-  background-color: #f5785f;
+  background-color: #e20909;
 }
 
 .lose a {

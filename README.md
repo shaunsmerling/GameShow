@@ -1,23 +1,57 @@
-## Game Description:
+# GameShowApp - A Fun, Fortune-Like Phrase Guessing App!
 
-In this project, you'll create a browser-based, word guessing game: "Phrase Hunter." You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.
+## Description
 
-Using JavaScript, you’ll create two JavaScript classes with specific properties and methods. You'll create a Game class for managing the game, and a Phrase class to help with creating an array of Phrase objects.
+Phrase Hunter was built by Shaun Smerling to mimic the phrase guessing gameshow "Fortune". The game involves a user who tries to simply guess the phrase by selecting letters from a keyboard displayed onscreen. The user has 5 guesses, indicated by the blue hearts at the bottom of the game. If they guess a wrong letter, a blue heart will turn grey and that letter will be disabled. If the user guesses the wrong letter 5 times, the user loses. Vice versa, if they guess the phrase correctly without using up all 5 guesses, the user wins! To reset the game after playing, simply click "Play Again"
 
-Your code will choose a random phrase, split the phrase into letters, and put those letters onto the gameboard.
+## Table of contents
 
-Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase. If the letter is in the phrase, the gameboard displays the chosen letters on the screen.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Style Updates](#style-updates)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose).
+## Overview
 
-If the player completes the phrase before they run out of guesses, a winning screen appears. If the player guesses incorrectly five times, a losing screen appears.
+### The challenge
 
-A player can guess a letter only once. After they’ve guessed a letter, your programming will need to disable that letter on the onscreen keyboard.
+This project was aimed at building a Browser Based Word Guessing Game called "Guess The Phrase". Utilizing OOP and Javascript, a user will be prompted to start the game whereby they'll be displayed a random phrase with hidden letters.
 
-After building this project, you'll have another great portfolio piece to show off your skills, a fun app that you can share with your friends and family, and good understanding of the principles of Object-Oriented Programming.
+As the user chooses a letter through the onscreen keyboard, the program will continuously compare each letter clicked to the letters included in the phrase. If the letter clicked is included in the phrase, it will be revealed. This will help the user continuously see more of the phrase.
 
-## Game Instructions:
+However, if the letter clicked is not included in the phrase, the user will lose a heart.
 
-1.The player’s goal is to guess all the letters in a hidden, random phrase. At the beginning, the player only sees the number of letters and words in the phrase, represented by blank boxes on the screen. 2. The player clicks an onscreen keyboard to guess letters in the phrase. 3. The letter is disabled on the onscreen keyboard and a player can't select that letter again. 4. If the selected letter is in the phrase at least once, the letter and its position in the phrase is highlighted on screen. All instances of the letter are made visible (so if there are 3 A's, all of the A's in the phrase appear at once). 5. If the selected letter is not in the phrase, one of the player's hearts in the scoreboard is changed from a "live" heart to a "lost" heart. The player keeps choosing letters until they reveal all the letters in the phrase, or they make five incorrect guesses.
+A player can continue to select letters until they either guess the phrase correctly or make five false guesses (and lose)
 
-s
+If the player wins, they'll be displayed a winning screen. Opposingly, if the player loses, they'll be displayed a losing screen. In both cases, they'll be prompted with a button to play again.
+
+After a letter is clicked, whether it is correct or not, it will not longer be able to be used & for the games duration it will be disabled.
+
+### Links
+
+- Live Site URL: [Phrase Hunter hosted by Netlify](## add heroku link when live)
+
+### Built with
+
+- Javascript ES6
+- HTML
+- CSS
+
+### Style Updates
+
+- I added some simple hover effects to the onscreen keyboard
+- I changed the color of the game title header
+- I changed the color of the revealed letters in the phrase
+- I changed the background color + header text of the winning & losing screen
+
+### What I learned
+
+Object-Oriented Programming was the name of the game here. I learned a lot about how to use OOP to create this game. Using just two classes (Game & Phrase), I was able to construct this game with all its simple intricacies reusing multiple instances of objects that are repeate throughout the game. Lastly, I used the DOM manipulation to make changes to the HTML & CSS. This taught me a lot about built in functions that you can use with DOM manipulation and better equiped me to know more in future projects.
+
+## Author
+
+- Medium - [@Smerling](https://www.medium.com/@smerling)
+- Twitter - [@Smerlinger](https://www.twitter.com/Smerlinger)
