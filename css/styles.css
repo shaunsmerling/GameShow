@@ -43,7 +43,8 @@ h2 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 50px;
+  padding: 50px;
 }
 
 button {
@@ -86,7 +87,7 @@ button {
 /* Title */
 
 .header {
-  color: #3a3f58;
+  color: rgb(56, 40, 158);
 }
 
 
@@ -98,7 +99,7 @@ button {
   width: 65px;
   padding: 20px 1px 0 1px;
   margin-right: 2px;
-  color: transparent;
+  color: var(--color-neutral-light);
   background: var(--color-neutral-light);
   border-radius: 5px;
 }
@@ -128,6 +129,10 @@ button {
 .keyrow {
   display: flex;
   justify-content: center;
+}
+
+.key:hover {
+ background-color: lightblue;
 }
 
 .chosen {
