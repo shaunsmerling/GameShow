@@ -32,7 +32,7 @@ After a letter is clicked, whether it is correct or not, it will not longer be a
 
 ### Links
 
-- Live Site URL: [Phrase Hunter hosted by Netlify](## add heroku link when live)
+- Live Site URL: [Hosted by Netlify](https://guessthephrase.netlify.app/)
 
 ### Built with
 
